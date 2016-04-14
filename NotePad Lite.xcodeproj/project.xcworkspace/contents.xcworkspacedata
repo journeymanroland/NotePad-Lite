@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:simple notepad.xcodeproj">
+      location = "self:/Users/rolandggill/Documents/swift practice/simple notepad/NotePad Lite.xcodeproj">
    </FileRef>
 </Workspace>

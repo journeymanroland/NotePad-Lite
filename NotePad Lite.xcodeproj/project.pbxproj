@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1ABBFF1CA3B7A900C3EBE5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1ABBFE1CA3B7A900C3EBE5 /* EventKit.framework */; };
+		DE1ABC571CA5ADCA00C3EBE5 /* SetReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABC561CA5ADCA00C3EBE5 /* SetReminderViewController.swift */; };
+		DE2D37591C9E285500F30575 /* PadPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D37581C9E285500F30575 /* PadPersistence.swift */; };
 		DE8BBED11C339B4900482DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BBED01C339B4900482DA7 /* AppDelegate.swift */; };
-		DE8BBED31C339B4900482DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BBED21C339B4900482DA7 /* ViewController.swift */; };
+		DE8BBED31C339B4900482DA7 /* NotepadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BBED21C339B4900482DA7 /* NotepadTableViewController.swift */; };
 		DE8BBED61C339B4900482DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8BBED41C339B4900482DA7 /* Main.storyboard */; };
-		DE8BBED91C339B4900482DA7 /* simple_notepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8BBED71C339B4900482DA7 /* simple_notepad.xcdatamodeld */; };
 		DE8BBEDB1C339B4900482DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8BBEDA1C339B4900482DA7 /* Assets.xcassets */; };
 		DE8BBEDE1C339B4900482DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8BBEDC1C339B4900482DA7 /* LaunchScreen.storyboard */; };
+		DE96ECA51CBE1C8900BAE7A8 /* ConfigureReminderReps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96ECA41CBE1C8900BAE7A8 /* ConfigureReminderReps.swift */; };
+		DE96ECA71CBEDCE200BAE7A8 /* CalendarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96ECA61CBEDCE200BAE7A8 /* CalendarActions.swift */; };
+		DEFE09A01C3F380900484061 /* ComposeNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE099F1C3F380900484061 /* ComposeNoteViewController.swift */; };
+		DEFE09A21C3F486800484061 /* BetaNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE09A11C3F486800484061 /* BetaNote.swift */; };
+		DEFE09A61C4093FE00484061 /* NoteContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE09A51C4093FE00484061 /* NoteContentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE8BBECD1C339B4900482DA7 /* simple notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple notepad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1ABBFE1CA3B7A900C3EBE5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DE1ABC561CA5ADCA00C3EBE5 /* SetReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetReminderViewController.swift; sourceTree = "<group>"; };
+		DE2D37581C9E285500F30575 /* PadPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadPersistence.swift; sourceTree = "<group>"; };
+		DE8BBECD1C339B4900482DA7 /* NotePad Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotePad Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8BBED01C339B4900482DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE8BBED21C339B4900482DA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8BBED21C339B4900482DA7 /* NotepadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadTableViewController.swift; sourceTree = "<group>"; };
 		DE8BBED51C339B4900482DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE8BBED81C339B4900482DA7 /* simple_notepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simple_notepad.xcdatamodel; sourceTree = "<group>"; };
 		DE8BBEDA1C339B4900482DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8BBEDD1C339B4900482DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE8BBEDF1C339B4900482DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE96ECA41CBE1C8900BAE7A8 /* ConfigureReminderReps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureReminderReps.swift; sourceTree = "<group>"; };
+		DE96ECA61CBEDCE200BAE7A8 /* CalendarActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarActions.swift; sourceTree = "<group>"; };
+		DEFE099F1C3F380900484061 /* ComposeNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeNoteViewController.swift; sourceTree = "<group>"; };
+		DEFE09A11C3F486800484061 /* BetaNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetaNote.swift; sourceTree = "<group>"; };
+		DEFE09A51C4093FE00484061 /* NoteContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteContentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1ABBFF1CA3B7A900C3EBE5 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 		DE8BBEC41C339B4900482DA7 = {
 			isa = PBXGroup;
 			children = (
+				DE1ABBFE1CA3B7A900C3EBE5 /* EventKit.framework */,
 				DE8BBECF1C339B4900482DA7 /* simple notepad */,
 				DE8BBECE1C339B4900482DA7 /* Products */,
 			);
@@ -48,7 +64,7 @@
 		DE8BBECE1C339B4900482DA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE8BBECD1C339B4900482DA7 /* simple notepad.app */,
+				DE8BBECD1C339B4900482DA7 /* NotePad Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,22 +73,44 @@
 			isa = PBXGroup;
 			children = (
 				DE8BBED01C339B4900482DA7 /* AppDelegate.swift */,
-				DE8BBED21C339B4900482DA7 /* ViewController.swift */,
+				DED809E81C9E429D00A3FA28 /* View Controllers */,
+				DED809E71C9E428F00A3FA28 /* Models */,
 				DE8BBED41C339B4900482DA7 /* Main.storyboard */,
 				DE8BBEDA1C339B4900482DA7 /* Assets.xcassets */,
 				DE8BBEDC1C339B4900482DA7 /* LaunchScreen.storyboard */,
 				DE8BBEDF1C339B4900482DA7 /* Info.plist */,
-				DE8BBED71C339B4900482DA7 /* simple_notepad.xcdatamodeld */,
 			);
 			path = "simple notepad";
+			sourceTree = "<group>";
+		};
+		DED809E71C9E428F00A3FA28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D37581C9E285500F30575 /* PadPersistence.swift */,
+				DE96ECA61CBEDCE200BAE7A8 /* CalendarActions.swift */,
+				DEFE09A11C3F486800484061 /* BetaNote.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DED809E81C9E429D00A3FA28 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BBED21C339B4900482DA7 /* NotepadTableViewController.swift */,
+				DEFE099F1C3F380900484061 /* ComposeNoteViewController.swift */,
+				DEFE09A51C4093FE00484061 /* NoteContentsViewController.swift */,
+				DE1ABC561CA5ADCA00C3EBE5 /* SetReminderViewController.swift */,
+				DE96ECA41CBE1C8900BAE7A8 /* ConfigureReminderReps.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE8BBECC1C339B4900482DA7 /* simple notepad */ = {
+		DE8BBECC1C339B4900482DA7 /* NotePad Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE8BBEE21C339B4900482DA7 /* Build configuration list for PBXNativeTarget "simple notepad" */;
+			buildConfigurationList = DE8BBEE21C339B4900482DA7 /* Build configuration list for PBXNativeTarget "NotePad Lite" */;
 			buildPhases = (
 				DE8BBEC91C339B4900482DA7 /* Sources */,
 				DE8BBECA1C339B4900482DA7 /* Frameworks */,
@@ -82,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = "simple notepad";
+			name = "NotePad Lite";
 			productName = "simple notepad";
-			productReference = DE8BBECD1C339B4900482DA7 /* simple notepad.app */;
+			productReference = DE8BBECD1C339B4900482DA7 /* NotePad Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,10 +137,11 @@
 				TargetAttributes = {
 					DE8BBECC1C339B4900482DA7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9YXQ5SLNJM;
 					};
 				};
 			};
-			buildConfigurationList = DE8BBEC81C339B4900482DA7 /* Build configuration list for PBXProject "simple notepad" */;
+			buildConfigurationList = DE8BBEC81C339B4900482DA7 /* Build configuration list for PBXProject "NotePad Lite" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE8BBECC1C339B4900482DA7 /* simple notepad */,
+				DE8BBECC1C339B4900482DA7 /* NotePad Lite */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8BBED31C339B4900482DA7 /* ViewController.swift in Sources */,
-				DE8BBED91C339B4900482DA7 /* simple_notepad.xcdatamodeld in Sources */,
+				DE96ECA51CBE1C8900BAE7A8 /* ConfigureReminderReps.swift in Sources */,
+				DEFE09A61C4093FE00484061 /* NoteContentsViewController.swift in Sources */,
+				DE2D37591C9E285500F30575 /* PadPersistence.swift in Sources */,
+				DEFE09A21C3F486800484061 /* BetaNote.swift in Sources */,
+				DE1ABC571CA5ADCA00C3EBE5 /* SetReminderViewController.swift in Sources */,
+				DE8BBED31C339B4900482DA7 /* NotepadTableViewController.swift in Sources */,
+				DE96ECA71CBEDCE200BAE7A8 /* CalendarActions.swift in Sources */,
+				DEFE09A01C3F380900484061 /* ComposeNoteViewController.swift in Sources */,
 				DE8BBED11C339B4900482DA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "simple notepad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roland.simple-notepad";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NotePad Lite";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,17 +310,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "simple notepad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roland.simple-notepad";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NotePad Lite";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE8BBEC81C339B4900482DA7 /* Build configuration list for PBXProject "simple notepad" */ = {
+		DE8BBEC81C339B4900482DA7 /* Build configuration list for PBXProject "NotePad Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE8BBEE01C339B4900482DA7 /* Debug */,
@@ -281,28 +332,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE8BBEE21C339B4900482DA7 /* Build configuration list for PBXNativeTarget "simple notepad" */ = {
+		DE8BBEE21C339B4900482DA7 /* Build configuration list for PBXNativeTarget "NotePad Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE8BBEE31C339B4900482DA7 /* Debug */,
 				DE8BBEE41C339B4900482DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DE8BBED71C339B4900482DA7 /* simple_notepad.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DE8BBED81C339B4900482DA7 /* simple_notepad.xcdatamodel */,
-			);
-			currentVersion = DE8BBED81C339B4900482DA7 /* simple_notepad.xcdatamodel */;
-			path = simple_notepad.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DE8BBEC51C339B4900482DA7 /* Project object */;
 }

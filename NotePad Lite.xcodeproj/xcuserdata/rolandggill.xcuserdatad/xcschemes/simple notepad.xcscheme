@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DE8BBECC1C339B4900482DA7"
-               BuildableName = "simple notepad.app"
-               BlueprintName = "simple notepad"
-               ReferencedContainer = "container:simple notepad.xcodeproj">
+               BuildableName = "NotePad Lite.app"
+               BlueprintName = "NotePad Lite"
+               ReferencedContainer = "container:NotePad Lite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE8BBECC1C339B4900482DA7"
-            BuildableName = "simple notepad.app"
-            BlueprintName = "simple notepad"
-            ReferencedContainer = "container:simple notepad.xcodeproj">
+            BuildableName = "NotePad Lite.app"
+            BlueprintName = "NotePad Lite"
+            ReferencedContainer = "container:NotePad Lite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE8BBECC1C339B4900482DA7"
-            BuildableName = "simple notepad.app"
-            BlueprintName = "simple notepad"
-            ReferencedContainer = "container:simple notepad.xcodeproj">
+            BuildableName = "NotePad Lite.app"
+            BlueprintName = "NotePad Lite"
+            ReferencedContainer = "container:NotePad Lite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE8BBECC1C339B4900482DA7"
-            BuildableName = "simple notepad.app"
-            BlueprintName = "simple notepad"
-            ReferencedContainer = "container:simple notepad.xcodeproj">
+            BuildableName = "NotePad Lite.app"
+            BlueprintName = "NotePad Lite"
+            ReferencedContainer = "container:NotePad Lite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

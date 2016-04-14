@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simple notepad/ComposeNoteViewController.swift"
+            timestampString = "480620800.574217"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ComposeNoteViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simple_notepad.ComposeNoteViewController.notePad.getter : Swift.Optional&lt;simple_notepad.AllNotes&gt;"
+                  moduleName = "simple notepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolandggill/Desktop/Swift%20Misc/simple%20notepad/simple%20notepad/ComposeNoteViewController.swift"
+                  timestampString = "474862283.329085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simple_notepad.ComposeNoteViewController.notePad.setter : Swift.Optional&lt;simple_notepad.AllNotes&gt;"
+                  moduleName = "simple notepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolandggill/Desktop/Swift%20Misc/simple%20notepad/simple%20notepad/ComposeNoteViewController.swift"
+                  timestampString = "474862283.329384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simple_notepad.ComposeNoteViewController.notePad.materializeForSet : Swift.Optional&lt;simple_notepad.AllNotes&gt;"
+                  moduleName = "simple notepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolandggill/Desktop/Swift%20Misc/simple%20notepad/simple%20notepad/ComposeNoteViewController.swift"
+                  timestampString = "474862283.32967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simple_notepad.ComposeNoteViewController.init (simple_notepad.ComposeNoteViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; simple_notepad.ComposeNoteViewController"
+                  moduleName = "simple notepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolandggill/Desktop/Swift%20Misc/simple%20notepad/simple%20notepad/ComposeNoteViewController.swift"
+                  timestampString = "474862283.329947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simple_notepad.ComposeNoteViewController.init (simple_notepad.ComposeNoteViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;simple_notepad.ComposeNoteViewController&gt;"
+                  moduleName = "simple notepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rolandggill/Desktop/Swift%20Misc/simple%20notepad/simple%20notepad/ComposeNoteViewController.swift"
+                  timestampString = "474862283.330214"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simple notepad/PadPersistence.swift"
+            timestampString = "480218391.131866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "noteEdited(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simple notepad/BetaNote.swift"
+            timestampString = "482293971.620531"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "BetaNote"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simple notepad/NoteContentsViewController.swift"
+            timestampString = "482284243.454973"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "setAsReminder(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
