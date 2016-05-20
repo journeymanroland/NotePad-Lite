@@ -71,10 +71,8 @@ class ComposeNoteViewController: UIViewController, UITextViewDelegate {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "set reminder" {
             if let setReminderVC = segue.destinationViewController as? SetReminderViewController {
-                //self.saveAndPersist()
                 print("\(newNote) passed to reminder VC")
                 setReminderVC.reminderTitle = handleTitle()
-                //setReminderVC.reminder =
             }
         }
     }

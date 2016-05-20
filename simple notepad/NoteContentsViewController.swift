@@ -22,9 +22,10 @@ class NoteContentsViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var toggleEditing: UIBarButtonItem!
     @IBOutlet weak var dueDateLbl: UILabel!
     @IBOutlet weak var toggleReminder: UISwitch!
+    
+    //MARK: VC lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        noteWasEdited = false
         
         // check if note was able to load
         noteContents.editable = false // note not initially editable
